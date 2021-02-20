@@ -1,0 +1,31 @@
+body {
+	background-color: #000000;
+	
+}
+
+#odin {
+	color: #ffffff;
+	font-size: 240%;
+	width: 7.11em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h3 {
+	color: #ffffff;
+	width: 14em;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+a:hover {
+	color: #d4d4d4;
+}
+
+#ol {
+	color: #d4d4ff;
+	font-size: 180%;
+	width: 7.11em;
+	margin-left: auto;
+	margin-right: auto;
+}
