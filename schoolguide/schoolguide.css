@@ -1,0 +1,41 @@
+body {
+	background-color: #000000;
+}
+
+#title {
+	color: #ffffff;
+	font-size: 400%;
+	text-align: center;
+}
+
+#description {
+	color: #ffffff;
+	font-size: 240%;
+	text-align: center;
+}
+
+#button {
+	background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  margin: 40px 10px;
+  cursor: pointer;
+}
+
+#links {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 3px 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 40px 10px;
+  cursor: pointer;
+}
