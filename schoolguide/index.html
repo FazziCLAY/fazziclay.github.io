@@ -6,11 +6,11 @@
 		<link rel="stylesheet" type="text/css" href="schoolguide.css">
 		<script>
 			function download() {
-				fetch('https://raw.githubusercontent.com/FazziCLAY/SchoolGuide/main/manifest/manifest.json')
+				fetch('https://raw.githubusercontent.com/FazziCLAY/SchoolGuide/main/manifest/v2/version_manifest_v2.json')
 			       .then(response => response.json())
 			       .then(json => {
 			       	try {
-					   document.location.href = json['latestVersion']['downloadUrl'];
+					   document.location.href = json['latestVersion']['download']['release'];
 					
 					} catch (e) {
 					   goToReleases();
