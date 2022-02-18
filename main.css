@@ -1,31 +1,62 @@
 body {
-	background-color: #000000;
-	
+	background-color: #000000;	
 }
 
-#odin {
-	color: #ffffff;
-	font-size: 240%;
-	width: 7.11em;
+.content {
+	padding: 0.5%;
+}
+
+.helloworld {
+	color: #ffffffff;
+	font-size: 300%;
+	width: max-content;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-h3 {
-	color: #ffffff;
-	width: 14em;
+.helloworld_description {
+	color: #ffffffff;
+	font-size: 200%;
+	width: max-content;
 	margin-left: auto;
-	margin-right: auto;	
+	margin-right: auto;
 }
 
-a:hover {
-	color: #d4d4d4;
+.link_to_fazziclay {
+	color: #00dddd;
 }
 
-#ol {
+.link_to_fazziclay:hover {
+	color: #0000ff;
+}
+
+.link {
 	color: #d4d4ff;
-	font-size: 180%;
-	width: 7.11em;
-	margin-left: auto;
-	margin-right: auto;
+	font-size: 200%;
+}
+
+.link:hover {
+	color: #99ffff;
+}
+
+.link_header {
+	color: #0f0fff;
+	font-size: 230%;
+	padding-bottom: 0%;   	
+}
+
+.div_me {
+	padding-left: 1%;
+}
+
+.div_projects {
+	padding-left: 1%;
+}
+
+.div_other {
+	padding-left: 1%;
+}
+
+.div_donate {
+	padding-left: 1%;
 }
