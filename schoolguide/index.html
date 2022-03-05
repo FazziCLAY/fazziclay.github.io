@@ -4,25 +4,7 @@
 		<meta charset="utf-8">
 		<title>FazziCLAY - SchoolGuide</title>
 		<link rel="stylesheet" type="text/css" href="schoolguide.css">
-		<script>
-			function download() {
-				fetch('https://raw.githubusercontent.com/FazziCLAY/SchoolGuide/main/manifest/v2/version_manifest_v2.json')
-			       .then(response => response.json())
-			       .then(json => {
-			       	try {
-					   document.location.href = json['latestVersion']['download']['release'];
-					
-					} catch (e) {
-					   goToReleases();
-					}
-			       })
-			       .catch(error => goToReleases())
-			}
-
-			function goToReleases() {
-				document.location.href = "https://github.com/FazziCLAY/SchoolGuide/releases/";
-			}
-		</script>
+		<script src="download_latest.js"></script>
 	</head>
 	<body>
 		<div class="content">
@@ -30,7 +12,7 @@
 			<h1 id="description">Приложение для облегчения жизни, сделал для себя, чтобы по кайфу было жить!<br><br>Developer: <a class="link_to_fazziclay" href="https://fazziclay.github.io">@FazziCLAY</a></h1>
 
 			<div style="text-align:center;">
-			    <button id="button" onclick="download();">Скачать / Download</button>
+			    <button id="button" onclick="tryDownloadLatest();">Скачать / Download</button>
 			</div>
 
 			<a id="links" href="https://github.com/fazziclay/schoolguide/">Github</a>
