@@ -22,7 +22,7 @@ function goToReleases() {
 function download(url) {
 	// Create a new link
 	const anchor = document.createElement('a');
-	anchor.href = path;        
+	anchor.href = url;        
 
 	// Append to the DOM
 	document.body.appendChild(anchor);
