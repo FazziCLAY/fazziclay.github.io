@@ -1,0 +1,19 @@
+{
+  "local_cache_signature": "v3-sig1",
+  "latest_version_code": 57,
+  "versions": [
+    {
+      "code": 57
+      "name": "0.9.0.4 TarZAN",
+      "download": {
+        "action": "OPEN_IN_BROWSER",
+        "value": "https://fazziclay.github.io/schoolguide"
+      },
+      "patch_notes": {
+        "type": "INTERNAL",
+        "mime_type": "html"
+        "value": "https://fazziclay.github.io"
+      }
+    }
+  ]
+}

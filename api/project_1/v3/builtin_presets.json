@@ -1,0 +1,887 @@
+{
+  "local_cache_signature": "v3-sig1k",
+  "presets": {
+    "67139158-1238-4dc0-b2c5-62e23e7c5ecb": {
+      "eventsInfos": {
+        "d92f04be-4e1e-4344-8036-41e1eb55b9e9": {
+          "name": "История"
+        },
+        "88d4a5d9-5f9f-4ba1-9776-db8b87f61198": {
+          "name": "Музыка"
+        },
+        "de6ddffe-ff52-4e0d-bf60-8e89d7bd9859": {
+          "name": "Химия"
+        },
+        "f99ea75b-e716-41b6-b7f6-277147ca1bab": {
+          "name": "Русский язык"
+        },
+        "e4882b01-f239-4f8b-b26b-aed1a89754b2": {
+          "name": "История К."
+        },
+        "781c0377-cb2d-4e91-882a-b89b811ab09a": {
+          "name": "Ф/К"
+        },
+        "87ca6d1e-2f70-4697-ae49-fde93e66217c": {
+          "name": "Физика"
+        },
+        "d01ca7ac-7e98-47c1-b101-2167b76b3a2b": {
+          "name": "English lang"
+        },
+        "f01a4e40-60e7-4b7e-89f1-7fdc6c1998f8": {
+          "name": "География"
+        },
+        "b80480ed-73b8-4c4c-b0a2-85a62065b324": {
+          "name": "Математика"
+        },
+        "de7bfca7-8826-4cdd-a19e-4dfef52e0393": {
+          "name": "Литература"
+        },
+        "11745285-708e-4725-bc52-27e554d938ee": {
+          "name": "Обществознание"
+        },
+        "98c71e8e-5f90-48e1-87da-ac392787a027": {
+          "name": "ОБЖ"
+        },
+        "e2794979-3433-43b2-9487-0224dcd4aa4a": {
+          "name": "Биология"
+        }
+      },
+      "eventsPositions": [
+        {
+          "eventInfo": "f99ea75b-e716-41b6-b7f6-277147ca1bab",
+          "end": 119400,
+          "start": 117000
+        },
+        {
+          "eventInfo": "98c71e8e-5f90-48e1-87da-ac392787a027",
+          "end": 122400,
+          "start": 120000
+        },
+        {
+          "eventInfo": "d92f04be-4e1e-4344-8036-41e1eb55b9e9",
+          "end": 126000,
+          "start": 123600
+        },
+        {
+          "eventInfo": "de7bfca7-8826-4cdd-a19e-4dfef52e0393",
+          "end": 129600,
+          "start": 127200
+        },
+        {
+          "eventInfo": "11745285-708e-4725-bc52-27e554d938ee",
+          "end": 132600,
+          "start": 130200
+        },
+        {
+          "eventInfo": "d01ca7ac-7e98-47c1-b101-2167b76b3a2b",
+          "end": 135600,
+          "start": 133200
+        },
+        {
+          "eventInfo": "b80480ed-73b8-4c4c-b0a2-85a62065b324",
+          "end": 205800,
+          "start": 203400
+        },
+        {
+          "eventInfo": "e2794979-3433-43b2-9487-0224dcd4aa4a",
+          "end": 208800,
+          "start": 206400
+        },
+        {
+          "eventInfo": "de6ddffe-ff52-4e0d-bf60-8e89d7bd9859",
+          "end": 212400,
+          "start": 210000
+        },
+        {
+          "eventInfo": "d92f04be-4e1e-4344-8036-41e1eb55b9e9",
+          "end": 216000,
+          "start": 213600
+        },
+        {
+          "eventInfo": "d01ca7ac-7e98-47c1-b101-2167b76b3a2b",
+          "end": 219000,
+          "start": 216600
+        },
+        {
+          "eventInfo": "781c0377-cb2d-4e91-882a-b89b811ab09a",
+          "end": 222000,
+          "start": 219600
+        },
+        {
+          "eventInfo": "d01ca7ac-7e98-47c1-b101-2167b76b3a2b",
+          "end": 225000,
+          "start": 222600
+        },
+        {
+          "eventInfo": "b80480ed-73b8-4c4c-b0a2-85a62065b324",
+          "end": 292200,
+          "start": 289800
+        },
+        {
+          "eventInfo": "f99ea75b-e716-41b6-b7f6-277147ca1bab",
+          "end": 295200,
+          "start": 292800
+        },
+        {
+          "eventInfo": "781c0377-cb2d-4e91-882a-b89b811ab09a",
+          "end": 298800,
+          "start": 296400
+        },
+        {
+          "eventInfo": "b80480ed-73b8-4c4c-b0a2-85a62065b324",
+          "end": 302400,
+          "start": 300000
+        },
+        {
+          "eventInfo": "f01a4e40-60e7-4b7e-89f1-7fdc6c1998f8",
+          "end": 305400,
+          "start": 303000
+        },
+        {
+          "eventInfo": "87ca6d1e-2f70-4697-ae49-fde93e66217c",
+          "end": 308400,
+          "start": 306000
+        },
+        {
+          "eventInfo": "e4882b01-f239-4f8b-b26b-aed1a89754b2",
+          "end": 311400,
+          "start": 309000
+        },
+        {
+          "eventInfo": "781c0377-cb2d-4e91-882a-b89b811ab09a",
+          "end": 378600,
+          "start": 376200
+        },
+        {
+          "eventInfo": "f01a4e40-60e7-4b7e-89f1-7fdc6c1998f8",
+          "end": 381600,
+          "start": 379200
+        },
+        {
+          "eventInfo": "b80480ed-73b8-4c4c-b0a2-85a62065b324",
+          "end": 385200,
+          "start": 382800
+        },
+        {
+          "eventInfo": "f99ea75b-e716-41b6-b7f6-277147ca1bab",
+          "end": 388800,
+          "start": 386400
+        },
+        {
+          "eventInfo": "de6ddffe-ff52-4e0d-bf60-8e89d7bd9859",
+          "end": 391800,
+          "start": 389400
+        },
+        {
+          "eventInfo": "de7bfca7-8826-4cdd-a19e-4dfef52e0393",
+          "end": 394800,
+          "start": 392400
+        },
+        {
+          "eventInfo": "d01ca7ac-7e98-47c1-b101-2167b76b3a2b",
+          "end": 397800,
+          "start": 395400
+        },
+        {
+          "eventInfo": "d01ca7ac-7e98-47c1-b101-2167b76b3a2b",
+          "end": 464700,
+          "start": 464700
+        },
+        {
+          "eventInfo": "87ca6d1e-2f70-4697-ae49-fde93e66217c",
+          "end": 470100,
+          "start": 467700
+        },
+        {
+          "eventInfo": "e2794979-3433-43b2-9487-0224dcd4aa4a",
+          "end": 473100,
+          "start": 470700
+        },
+        {
+          "eventInfo": "88d4a5d9-5f9f-4ba1-9776-db8b87f61198",
+          "end": 476100,
+          "start": 473700
+        },
+        {
+          "eventInfo": "b80480ed-73b8-4c4c-b0a2-85a62065b324",
+          "end": 479100,
+          "start": 476700
+        }
+      ],
+      "name": "Шк1: 8 класс"
+    },
+    "b25a4b4a-06b4-43a3-a0c2-8392e1079d05": {
+      "eventsInfos": {
+        "d92f04be-4e1e-4344-8036-41e1eb55b9e9": {
+          "name": "История"
+        },
+        "de6ddffe-ff52-4e0d-bf60-8e89d7bd9859": {
+          "name": "Химия"
+        },
+        "f99ea75b-e716-41b6-b7f6-277147ca1bab": {
+          "name": "Русский язык"
+        },
+        "a9131509-8e70-4eed-bb45-c5d2a4fd9409": {
+          "name": "Информатика"
+        },
+        "781c0377-cb2d-4e91-882a-b89b811ab09a": {
+          "name": "Ф/К"
+        },
+        "87ca6d1e-2f70-4697-ae49-fde93e66217c": {
+          "name": "Физика"
+        },
+        "f01a4e40-60e7-4b7e-89f1-7fdc6c1998f8": {
+          "name": "География"
+        },
+        "d01ca7ac-7e98-47c1-b101-2167b76b3a2b": {
+          "name": "English lang"
+        },
+        "f8a7569d-b466-4475-a4a7-cd79d63f9d47": {
+          "name": "Процент"
+        },
+        "b80480ed-73b8-4c4c-b0a2-85a62065b324": {
+          "name": "Математика"
+        },
+        "de7bfca7-8826-4cdd-a19e-4dfef52e0393": {
+          "name": "Литература"
+        },
+        "11745285-708e-4725-bc52-27e554d938ee": {
+          "name": "Обществознание"
+        },
+        "98c71e8e-5f90-48e1-87da-ac392787a027": {
+          "name": "ОБЖ"
+        },
+        "e2794979-3433-43b2-9487-0224dcd4aa4a": {
+          "name": "Биология"
+        }
+      },
+      "eventsPositions": [
+        {
+          "eventInfo": "f01a4e40-60e7-4b7e-89f1-7fdc6c1998f8",
+          "end": 119400,
+          "start": 117000
+        },
+        {
+          "eventInfo": "b80480ed-73b8-4c4c-b0a2-85a62065b324",
+          "end": 122400,
+          "start": 120000
+        },
+        {
+          "eventInfo": "f99ea75b-e716-41b6-b7f6-277147ca1bab",
+          "end": 126000,
+          "start": 123600
+        },
+        {
+          "eventInfo": "de6ddffe-ff52-4e0d-bf60-8e89d7bd9859",
+          "end": 129600,
+          "start": 127200
+        },
+        {
+          "eventInfo": "98c71e8e-5f90-48e1-87da-ac392787a027",
+          "end": 132600,
+          "start": 130200
+        },
+        {
+          "eventInfo": "781c0377-cb2d-4e91-882a-b89b811ab09a",
+          "end": 135600,
+          "start": 133200
+        },
+        {
+          "eventInfo": "b80480ed-73b8-4c4c-b0a2-85a62065b324",
+          "end": 205200,
+          "start": 202800
+        },
+        {
+          "eventInfo": "f99ea75b-e716-41b6-b7f6-277147ca1bab",
+          "end": 208800,
+          "start": 206400
+        },
+        {
+          "eventInfo": "de7bfca7-8826-4cdd-a19e-4dfef52e0393",
+          "end": 212400,
+          "start": 210000
+        },
+        {
+          "eventInfo": "d01ca7ac-7e98-47c1-b101-2167b76b3a2b",
+          "end": 216000,
+          "start": 213600
+        },
+        {
+          "eventInfo": "87ca6d1e-2f70-4697-ae49-fde93e66217c",
+          "end": 219000,
+          "start": 216600
+        },
+        {
+          "eventInfo": "a9131509-8e70-4eed-bb45-c5d2a4fd9409",
+          "end": 222000,
+          "start": 219600
+        },
+        {
+          "eventInfo": "e2794979-3433-43b2-9487-0224dcd4aa4a",
+          "end": 225000,
+          "start": 222600
+        },
+        {
+          "eventInfo": "b80480ed-73b8-4c4c-b0a2-85a62065b324",
+          "end": 292200,
+          "start": 289800
+        },
+        {
+          "eventInfo": "f99ea75b-e716-41b6-b7f6-277147ca1bab",
+          "end": 295200,
+          "start": 292800
+        },
+        {
+          "eventInfo": "de7bfca7-8826-4cdd-a19e-4dfef52e0393",
+          "end": 298800,
+          "start": 296400
+        },
+        {
+          "eventInfo": "87ca6d1e-2f70-4697-ae49-fde93e66217c",
+          "end": 302400,
+          "start": 300000
+        },
+        {
+          "eventInfo": "d01ca7ac-7e98-47c1-b101-2167b76b3a2b",
+          "end": 305400,
+          "start": 303000
+        },
+        {
+          "eventInfo": "d01ca7ac-7e98-47c1-b101-2167b76b3a2b",
+          "end": 308400,
+          "start": 306000
+        },
+        {
+          "eventInfo": "781c0377-cb2d-4e91-882a-b89b811ab09a",
+          "end": 311400,
+          "start": 309000
+        },
+        {
+          "eventInfo": "d92f04be-4e1e-4344-8036-41e1eb55b9e9",
+          "end": 378600,
+          "start": 376200
+        },
+        {
+          "eventInfo": "b80480ed-73b8-4c4c-b0a2-85a62065b324",
+          "end": 381600,
+          "start": 379200
+        },
+        {
+          "eventInfo": "f99ea75b-e716-41b6-b7f6-277147ca1bab",
+          "end": 385200,
+          "start": 382800
+        },
+        {
+          "eventInfo": "de7bfca7-8826-4cdd-a19e-4dfef52e0393",
+          "end": 388800,
+          "start": 386400
+        },
+        {
+          "eventInfo": "781c0377-cb2d-4e91-882a-b89b811ab09a",
+          "end": 391800,
+          "start": 389400
+        },
+        {
+          "eventInfo": "f01a4e40-60e7-4b7e-89f1-7fdc6c1998f8",
+          "end": 394800,
+          "start": 392400
+        },
+        {
+          "eventInfo": "e2794979-3433-43b2-9487-0224dcd4aa4a",
+          "end": 397800,
+          "start": 395400
+        },
+        {
+          "eventInfo": "de6ddffe-ff52-4e0d-bf60-8e89d7bd9859",
+          "end": 467100,
+          "start": 464700
+        },
+        {
+          "eventInfo": "d92f04be-4e1e-4344-8036-41e1eb55b9e9",
+          "end": 470100,
+          "start": 467700
+        },
+        {
+          "eventInfo": "11745285-708e-4725-bc52-27e554d938ee",
+          "end": 473100,
+          "start": 470700
+        },
+        {
+          "eventInfo": "b80480ed-73b8-4c4c-b0a2-85a62065b324",
+          "end": 476100,
+          "start": 473700
+        },
+        {
+          "eventInfo": "87ca6d1e-2f70-4697-ae49-fde93e66217c",
+          "end": 479100,
+          "start": 476700
+        },
+        {
+          "eventInfo": "f8a7569d-b466-4475-a4a7-cd79d63f9d47",
+          "end": 482100,
+          "start": 479700
+        }
+      ],
+      "name": "Шк1: 9 класс(2 группа)"
+    },
+    "0efcaa21-f1fe-4af0-b5fd-581961e2609f": {
+      "eventsInfos": {
+        "d92f04be-4e1e-4344-8036-41e1eb55b9e9": {
+          "name": "История"
+        },
+        "a6782a1f-9178-4c0d-b3e2-6f1298574f15": {
+          "name": "Избранные вопросы математики"
+        },
+        "aedbd0b3-53e6-431f-aa25-c8aacd4c8ef3": {
+          "name": "Культура речи"
+        },
+        "de6ddffe-ff52-4e0d-bf60-8e89d7bd9859": {
+          "name": "Химия"
+        },
+        "f99ea75b-e716-41b6-b7f6-277147ca1bab": {
+          "name": "Русский язык"
+        },
+        "a9131509-8e70-4eed-bb45-c5d2a4fd9409": {
+          "name": "Информатика"
+        },
+        "781c0377-cb2d-4e91-882a-b89b811ab09a": {
+          "name": "Ф/К"
+        },
+        "0018b2da-b382-4069-8dae-83b99c6e8658": {
+          "name": "Русская Литература"
+        },
+        "87ca6d1e-2f70-4697-ae49-fde93e66217c": {
+          "name": "Физика"
+        },
+        "d01ca7ac-7e98-47c1-b101-2167b76b3a2b": {
+          "name": "English lang"
+        },
+        "f01a4e40-60e7-4b7e-89f1-7fdc6c1998f8": {
+          "name": "География"
+        },
+        "b80480ed-73b8-4c4c-b0a2-85a62065b324": {
+          "name": "Математика"
+        },
+        "150904a3-7fa6-4d22-bba9-069bf7b65ed3": {
+          "name": "Астрономия"
+        },
+        "8a0f5672-9d44-4a71-82dd-8c750fd9a7c0": {
+          "name": "Правильная орфография"
+        },
+        "11745285-708e-4725-bc52-27e554d938ee": {
+          "name": "Обществознание"
+        },
+        "de7bfca7-8826-4cdd-a19e-4dfef52e0393": {
+          "name": "Литература"
+        },
+        "98c71e8e-5f90-48e1-87da-ac392787a027": {
+          "name": "ОБЖ"
+        },
+        "caf4f05e-e58d-45f1-bc90-fae0f3242b79": {
+          "name": "Проект"
+        },
+        "e2794979-3433-43b2-9487-0224dcd4aa4a": {
+          "name": "Биология"
+        },
+        "b8e68279-578e-4fc4-8d79-550606d47b60": {
+          "name": "Простое решение задач"
+        },
+        "6a7a11af-0679-475d-9b41-1eaf16ce4fee": {
+          "name": "Классный час"
+        }
+      },
+      "eventsPositions": [
+        {
+          "eventInfo": "11745285-708e-4725-bc52-27e554d938ee",
+          "end": 119400,
+          "start": 117000
+        },
+        {
+          "eventInfo": "f99ea75b-e716-41b6-b7f6-277147ca1bab",
+          "end": 122400,
+          "start": 120000
+        },
+        {
+          "eventInfo": "d92f04be-4e1e-4344-8036-41e1eb55b9e9",
+          "end": 126000,
+          "start": 123600
+        },
+        {
+          "eventInfo": "d01ca7ac-7e98-47c1-b101-2167b76b3a2b",
+          "end": 129600,
+          "start": 127200
+        },
+        {
+          "eventInfo": "de7bfca7-8826-4cdd-a19e-4dfef52e0393",
+          "end": 132600,
+          "start": 130200
+        },
+        {
+          "eventInfo": "98c71e8e-5f90-48e1-87da-ac392787a027",
+          "end": 135600,
+          "start": 133200
+        },
+        {
+          "eventInfo": "781c0377-cb2d-4e91-882a-b89b811ab09a",
+          "end": 138600,
+          "start": 136200
+        },
+        {
+          "eventInfo": "a9131509-8e70-4eed-bb45-c5d2a4fd9409",
+          "end": 205800,
+          "start": 203400
+        },
+        {
+          "eventInfo": "b80480ed-73b8-4c4c-b0a2-85a62065b324",
+          "end": 208800,
+          "start": 206400
+        },
+        {
+          "eventInfo": "caf4f05e-e58d-45f1-bc90-fae0f3242b79",
+          "end": 212400,
+          "start": 210000
+        },
+        {
+          "eventInfo": "150904a3-7fa6-4d22-bba9-069bf7b65ed3",
+          "end": 216000,
+          "start": 213600
+        },
+        {
+          "eventInfo": "de7bfca7-8826-4cdd-a19e-4dfef52e0393",
+          "end": 219000,
+          "start": 216600
+        },
+        {
+          "eventInfo": "d01ca7ac-7e98-47c1-b101-2167b76b3a2b",
+          "end": 222000,
+          "start": 219600
+        },
+        {
+          "eventInfo": "781c0377-cb2d-4e91-882a-b89b811ab09a",
+          "end": 225000,
+          "start": 222600
+        },
+        {
+          "eventInfo": "d92f04be-4e1e-4344-8036-41e1eb55b9e9",
+          "end": 292200,
+          "start": 289800
+        },
+        {
+          "eventInfo": "b80480ed-73b8-4c4c-b0a2-85a62065b324",
+          "end": 295200,
+          "start": 292800
+        },
+        {
+          "eventInfo": "f01a4e40-60e7-4b7e-89f1-7fdc6c1998f8",
+          "end": 298800,
+          "start": 296400
+        },
+        {
+          "eventInfo": "87ca6d1e-2f70-4697-ae49-fde93e66217c",
+          "end": 302400,
+          "start": 300000
+        },
+        {
+          "eventInfo": "de7bfca7-8826-4cdd-a19e-4dfef52e0393",
+          "end": 305400,
+          "start": 303000
+        },
+        {
+          "eventInfo": "a6782a1f-9178-4c0d-b3e2-6f1298574f15",
+          "end": 308400,
+          "start": 306000
+        },
+        {
+          "eventInfo": "0018b2da-b382-4069-8dae-83b99c6e8658",
+          "end": 311400,
+          "start": 309000
+        },
+        {
+          "eventInfo": "b80480ed-73b8-4c4c-b0a2-85a62065b324",
+          "end": 378600,
+          "start": 376200
+        },
+        {
+          "eventInfo": "11745285-708e-4725-bc52-27e554d938ee",
+          "end": 381600,
+          "start": 379200
+        },
+        {
+          "eventInfo": "e2794979-3433-43b2-9487-0224dcd4aa4a",
+          "end": 385200,
+          "start": 382800
+        },
+        {
+          "eventInfo": "d01ca7ac-7e98-47c1-b101-2167b76b3a2b",
+          "end": 388800,
+          "start": 386400
+        },
+        {
+          "eventInfo": "aedbd0b3-53e6-431f-aa25-c8aacd4c8ef3",
+          "end": 391800,
+          "start": 389400
+        },
+        {
+          "eventInfo": "8a0f5672-9d44-4a71-82dd-8c750fd9a7c0",
+          "end": 394800,
+          "start": 392400
+        },
+        {
+          "eventInfo": "781c0377-cb2d-4e91-882a-b89b811ab09a",
+          "end": 397800,
+          "start": 395400
+        },
+        {
+          "eventInfo": "6a7a11af-0679-475d-9b41-1eaf16ce4fee",
+          "end": 464100,
+          "start": 462600
+        },
+        {
+          "eventInfo": "b80480ed-73b8-4c4c-b0a2-85a62065b324",
+          "end": 467100,
+          "start": 464700
+        },
+        {
+          "eventInfo": "de6ddffe-ff52-4e0d-bf60-8e89d7bd9859",
+          "end": 470100,
+          "start": 467700
+        },
+        {
+          "eventInfo": "87ca6d1e-2f70-4697-ae49-fde93e66217c",
+          "end": 473100,
+          "start": 470700
+        },
+        {
+          "eventInfo": "b8e68279-578e-4fc4-8d79-550606d47b60",
+          "end": 476100,
+          "start": 473700
+        },
+        {
+          "eventInfo": "de6ddffe-ff52-4e0d-bf60-8e89d7bd9859",
+          "end": 479100,
+          "start": 476700
+        },
+        {
+          "eventInfo": "f99ea75b-e716-41b6-b7f6-277147ca1bab",
+          "end": 482100,
+          "start": 479700
+        }
+      ],
+      "name": "Шк1: 10 класс"
+    },
+    "25d4b091-f6db-457c-9811-6e15c86b7c50": {
+      "eventsInfos": {
+        "d92f04be-4e1e-4344-8036-41e1eb55b9e9": {
+          "name": "История"
+        },
+        "de6ddffe-ff52-4e0d-bf60-8e89d7bd9859": {
+          "name": "Химия"
+        },
+        "f99ea75b-e716-41b6-b7f6-277147ca1bab": {
+          "name": "Русский язык"
+        },
+        "a9131509-8e70-4eed-bb45-c5d2a4fd9409": {
+          "name": "Информатика"
+        },
+        "781c0377-cb2d-4e91-882a-b89b811ab09a": {
+          "name": "Ф/К"
+        },
+        "87ca6d1e-2f70-4697-ae49-fde93e66217c": {
+          "name": "Физика"
+        },
+        "f01a4e40-60e7-4b7e-89f1-7fdc6c1998f8": {
+          "name": "География"
+        },
+        "d01ca7ac-7e98-47c1-b101-2167b76b3a2b": {
+          "name": "English lang"
+        },
+        "f8a7569d-b466-4475-a4a7-cd79d63f9d47": {
+          "name": "Процент"
+        },
+        "b80480ed-73b8-4c4c-b0a2-85a62065b324": {
+          "name": "Математика"
+        },
+        "de7bfca7-8826-4cdd-a19e-4dfef52e0393": {
+          "name": "Литература"
+        },
+        "11745285-708e-4725-bc52-27e554d938ee": {
+          "name": "Обществознание"
+        },
+        "98c71e8e-5f90-48e1-87da-ac392787a027": {
+          "name": "ОБЖ"
+        },
+        "e2794979-3433-43b2-9487-0224dcd4aa4a": {
+          "name": "Биология"
+        }
+      },
+      "eventsPositions": [
+        {
+          "eventInfo": "f01a4e40-60e7-4b7e-89f1-7fdc6c1998f8",
+          "end": 119400,
+          "start": 117000
+        },
+        {
+          "eventInfo": "b80480ed-73b8-4c4c-b0a2-85a62065b324",
+          "end": 122400,
+          "start": 120000
+        },
+        {
+          "eventInfo": "f99ea75b-e716-41b6-b7f6-277147ca1bab",
+          "end": 126000,
+          "start": 123600
+        },
+        {
+          "eventInfo": "de6ddffe-ff52-4e0d-bf60-8e89d7bd9859",
+          "end": 129600,
+          "start": 127200
+        },
+        {
+          "eventInfo": "98c71e8e-5f90-48e1-87da-ac392787a027",
+          "end": 132600,
+          "start": 130200
+        },
+        {
+          "eventInfo": "781c0377-cb2d-4e91-882a-b89b811ab09a",
+          "end": 135600,
+          "start": 133200
+        },
+        {
+          "eventInfo": "b80480ed-73b8-4c4c-b0a2-85a62065b324",
+          "end": 205200,
+          "start": 202800
+        },
+        {
+          "eventInfo": "f99ea75b-e716-41b6-b7f6-277147ca1bab",
+          "end": 208800,
+          "start": 206400
+        },
+        {
+          "eventInfo": "de7bfca7-8826-4cdd-a19e-4dfef52e0393",
+          "end": 212400,
+          "start": 210000
+        },
+        {
+          "eventInfo": "a9131509-8e70-4eed-bb45-c5d2a4fd9409",
+          "end": 216000,
+          "start": 213600
+        },
+        {
+          "eventInfo": "87ca6d1e-2f70-4697-ae49-fde93e66217c",
+          "end": 219000,
+          "start": 216600
+        },
+        {
+          "eventInfo": "d01ca7ac-7e98-47c1-b101-2167b76b3a2b",
+          "end": 222000,
+          "start": 219600
+        },
+        {
+          "eventInfo": "e2794979-3433-43b2-9487-0224dcd4aa4a",
+          "end": 225000,
+          "start": 222600
+        },
+        {
+          "eventInfo": "b80480ed-73b8-4c4c-b0a2-85a62065b324",
+          "end": 292200,
+          "start": 289800
+        },
+        {
+          "eventInfo": "f99ea75b-e716-41b6-b7f6-277147ca1bab",
+          "end": 295200,
+          "start": 292800
+        },
+        {
+          "eventInfo": "de7bfca7-8826-4cdd-a19e-4dfef52e0393",
+          "end": 298800,
+          "start": 296400
+        },
+        {
+          "eventInfo": "87ca6d1e-2f70-4697-ae49-fde93e66217c",
+          "end": 302400,
+          "start": 300000
+        },
+        {
+          "eventInfo": "d01ca7ac-7e98-47c1-b101-2167b76b3a2b",
+          "end": 305400,
+          "start": 303000
+        },
+        {
+          "eventInfo": "d01ca7ac-7e98-47c1-b101-2167b76b3a2b",
+          "end": 308400,
+          "start": 306000
+        },
+        {
+          "eventInfo": "781c0377-cb2d-4e91-882a-b89b811ab09a",
+          "end": 311400,
+          "start": 309000
+        },
+        {
+          "eventInfo": "d92f04be-4e1e-4344-8036-41e1eb55b9e9",
+          "end": 378600,
+          "start": 376200
+        },
+        {
+          "eventInfo": "b80480ed-73b8-4c4c-b0a2-85a62065b324",
+          "end": 381600,
+          "start": 379200
+        },
+        {
+          "eventInfo": "f99ea75b-e716-41b6-b7f6-277147ca1bab",
+          "end": 385200,
+          "start": 382800
+        },
+        {
+          "eventInfo": "de7bfca7-8826-4cdd-a19e-4dfef52e0393",
+          "end": 388800,
+          "start": 386400
+        },
+        {
+          "eventInfo": "781c0377-cb2d-4e91-882a-b89b811ab09a",
+          "end": 391800,
+          "start": 389400
+        },
+        {
+          "eventInfo": "f01a4e40-60e7-4b7e-89f1-7fdc6c1998f8",
+          "end": 394800,
+          "start": 392400
+        },
+        {
+          "eventInfo": "e2794979-3433-43b2-9487-0224dcd4aa4a",
+          "end": 397800,
+          "start": 395400
+        },
+        {
+          "eventInfo": "de6ddffe-ff52-4e0d-bf60-8e89d7bd9859",
+          "end": 467100,
+          "start": 464700
+        },
+        {
+          "eventInfo": "d92f04be-4e1e-4344-8036-41e1eb55b9e9",
+          "end": 470100,
+          "start": 467700
+        },
+        {
+          "eventInfo": "11745285-708e-4725-bc52-27e554d938ee",
+          "end": 473100,
+          "start": 470700
+        },
+        {
+          "eventInfo": "b80480ed-73b8-4c4c-b0a2-85a62065b324",
+          "end": 476100,
+          "start": 473700
+        },
+        {
+          "eventInfo": "87ca6d1e-2f70-4697-ae49-fde93e66217c",
+          "end": 479100,
+          "start": 476700
+        },
+        {
+          "eventInfo": "f8a7569d-b466-4475-a4a7-cd79d63f9d47",
+          "end": 482100,
+          "start": 479700
+        }
+      ],
+      "name": "Шк1: 9 класс(1 группа)"
+    }
+  }
+}
