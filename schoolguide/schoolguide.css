@@ -2,19 +2,19 @@ body {
 	background-color: #000000;
 }
 
-#title {
+#schoolguide_title {
 	color: #ffffff;
 	font-size: 400%;
 	text-align: center;
 }
 
-#description {
+#schoolguide_description {
 	color: #ffffff;
 	font-size: 240%;
 	text-align: center;
 }
 
-#button {
+#schoolguide_download {
   background-color: #4CAF50;
   border: none;
   color: white;
@@ -27,7 +27,7 @@ body {
   cursor: pointer;
 }
 
-#links {
+#schooluide_links {
   background-color: #4CAF50;
   border: none;
   color: white;
@@ -38,12 +38,4 @@ body {
   font-size: 25px;
   margin: 40px 10px;
   cursor: pointer;
-}
-
-.link_to_fazziclay {
-  color: #00dddd;
-}
-
-.link_to_fazziclay:hover {
-  color: #0000ff;
 }

@@ -39,24 +39,29 @@ body {
 	color: #99ffff;
 }
 
-.link_header {
+.linkgroup_header {
 	color: #0f0fff;
 	font-size: 230%;
 	padding-bottom: 0%;   	
 }
 
-.div_me {
+.linkgroup_contact {
 	padding-left: 1%;
 }
 
-.div_projects {
+.linkgroup_projects {
 	padding-left: 1%;
 }
 
-.div_other {
+.linkgroup_other {
 	padding-left: 1%;
 }
 
-.div_donate {
+.linkgroup_donate {      
 	padding-left: 1%;
+}
+
+.linkgroup_files {	
+	padding-left: 1%;
+	color: #ffffff;
 }

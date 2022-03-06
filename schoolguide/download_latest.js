@@ -7,7 +7,7 @@ function tryDownloadLatest() {
 	.then(json => {
 		try {
 			var url = json['latestVersion']['download']['release'];
-			window.open(url, '_blank').focus();
+			download(url);
 		} catch (e) {
 			goToReleases();
 		}
@@ -17,4 +17,19 @@ function tryDownloadLatest() {
 
 function goToReleases() {
 	document.location.href = RELEASES_PAGE_URL;
+}
+
+function download(url) {
+	// Create a new link
+	const anchor = document.createElement('a');
+	anchor.href = path;        
+
+	// Append to the DOM
+	document.body.appendChild(anchor);
+
+	// Trigger `click` event
+	anchor.click();
+
+	// Remove element from DOM
+	document.body.removeChild(anchor);	
 }
