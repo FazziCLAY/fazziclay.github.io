@@ -8,7 +8,7 @@
   "builtin_preset_list": {
     "type": "EXTERNAL",
     "value": "api_project_root://builtin_presets.json",
-    "local_cache_signature": "v3-sig1",
+    "local_cache_signature": "v3-sig1k",
     "cacheable": true,
     "minimal_version": 57
   }
