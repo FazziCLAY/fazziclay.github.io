@@ -1,5 +1,5 @@
-Projects ids
+Format: https://fazziclay.github.io/api/project_90009/
+90009 - example project id
 
-format: /_api_/project_<project_id>/<here personal for project>
-
+Projects ids:
 1 - SchoolGuide
