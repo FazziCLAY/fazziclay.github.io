@@ -3,7 +3,7 @@
   "latest_version_code": 57,
   "versions": [
     {
-      "code": 57
+      "code": 57,
       "name": "0.9.0.4 TarZAN",
       "download": {
         "action": "OPEN_IN_BROWSER",
@@ -11,7 +11,7 @@
       },
       "patch_notes": {
         "type": "INTERNAL",
-        "mime_type": "html"
+        "mime_type": "html",
         "value": "https://fazziclay.github.io"
       }
     }
