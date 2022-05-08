@@ -2,12 +2,8 @@ body {
 	background-color: #000000;	
 }
 
-.content {
-	padding: 0.5%;
-}
-
 .helloworld {
-	color: #ffffffff;
+	color: #ffffff;
 	font-size: 300%;
 	width: max-content;
 	margin-left: auto;
@@ -15,7 +11,7 @@ body {
 }
 
 .helloworld_description {
-	color: #ffffffff;
+	color: #ffffff;
 	font-size: 200%;
 	width: max-content;
 	margin-left: auto;
@@ -27,41 +23,39 @@ body {
 }
 
 .link_to_fazziclay:hover {
-	color: #0000ff;
+	color: #0055ff;
 }
 
-.link {
+.my_name_is {
+	color: #ffffff;
+	font-size: 200%;   
+	padding: 1%;
+}
+
+.my_name_is_name {
+	color: #ff33ff;
+}
+
+.linkgroup {
+	padding-left: 1%;
+}
+
+.linkgroup_header {
+	color: #afd0ff;
+	font-size: 230%;   	
+}
+
+.link {            
 	color: #d4d4ff;
 	font-size: 200%;
 }
 
 .link:hover {
-	color: #99ffff;
+	color: #00aaff;
 }
 
-.linkgroup_header {
-	color: #0f0fff;
-	font-size: 230%;
-	padding-bottom: 0%;   	
-}
 
-.linkgroup_contact {
-	padding-left: 1%;
-}
 
-.linkgroup_projects {
-	padding-left: 1%;
-}
 
-.linkgroup_other {
-	padding-left: 1%;
-}
 
-.linkgroup_donate {      
-	padding-left: 1%;
-}
 
-.linkgroup_files {	
-	padding-left: 1%;
-	color: #ffffff;
-}
