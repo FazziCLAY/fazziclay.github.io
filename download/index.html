@@ -1,23 +1,22 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <title>Mironov Stanislav Archive</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <script src="./openfiletable.js"></script>
 </head>
 <body>
   <h1><a href="https://fazziclay.github.io">Mironov Stanislav</a> Archive</h1>
-  <pre>
-  <p>Use <a href="index.json">index.json</a> for json data</p>
+  <p>Open <a href="index.json">index.json</a> for json this data format</p>
   <hr>
-  <a id="disable_sort" href="?sort=null">Disable sort</a>
-  <table id="main_table" bordercolor="#000000" border="1" cellpadding="10">
-    <!-- Header -->             
-    <tr>
-      <th><a id="header_name" href="?sort=name">Name</a></th>
-      <th><a id="header_date" href="?sort=date">Date</a></th>
-      <th><a id="header_description" href="?sort=description">Description</a></th>
-    </tr>   
-  </table>
+  <div id="tttable">
+    <h1 id="tttable_loading">Loading...</h1>
+    <h2 id="tttable_error"></h2>
+  </div>
 </body>
-<script src="./index.js"></script>
+<script type="text/javascript">
+  openfiletablejs_setup("tttable", ["Name", "Last modifed", "Description"], "name");
+  openfiletablejs_load("./index.json", "tttable_loading", "tttable_error");
+</script>
 </html>
