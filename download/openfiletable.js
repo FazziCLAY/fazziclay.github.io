@@ -1,133 +1,127 @@
-// Settings
-var div_table_id = "div_table";
-var header_names = ["Name", "Date", "Description"];
+class OpenFileTable {
+  constructor(div_table_id, header_names, sort_mode, sort_mode_reverse) {
+    this.json = null;
+    this.div_table_id = div_table_id;
+    this.header_names = header_names;
+    this.sort_mode = sort_mode;
+    this.sort_mode_reverse = sort_mode_reverse;
+  }
 
-var sort_mode = "name";
-var sort_mode_reverse = false;
-
-var index_json = null;
-
-function openfiletablejs_dev_a(headerCell, name) {
-	if (sort_mode_reverse) {
-		headerCell.innerHTML = name + "↓";
-	} else {
-		headerCell.innerHTML = name + "↑";
-	}
-}
-
-function openfiletablejs_generateTable() {
-	var table = document.createElement("TABLE");
-
-	var header_row = table.insertRow();
-	for (var i = 0; i < header_names.length; i++) {
-		var headerCell = document.createElement("TH");
-		headerCell.innerHTML = header_names[i];
-		
-		if (i == 0) {
-			headerCell.onclick = () => openfiletablejs_header_clicked("name");
-			if (sort_mode == "name") openfiletablejs_dev_a(headerCell, header_names[i]);
-		}
-		if (i == 1) {
-			headerCell.onclick = () => openfiletablejs_header_clicked("date");
-			if (sort_mode == "date") openfiletablejs_dev_a(headerCell, header_names[i]);
-		}
-		if (i == 2) {
-			headerCell.onclick = () => openfiletablejs_header_clicked("description");
-			if (sort_mode == "description") openfiletablejs_dev_a(headerCell, header_names[i]);
-		}
-
-		header_row.appendChild(headerCell);
-	}
+  load(url_to_index, del_after_loading_id, error_id) {
+    fetch(url_to_index)
+      .then(response => response.json())
+      .then(json => {
+        this.json = json;
+        this.regenerate_table();
+      })
+      .catch(error => {
+        console.log(error);
+        if (error_id != null) {
+          const err = document.getElementById(error_id);
+          err.innerText = error;
+        }
+      });
 
 
-    for (var i = 0; i < index_json.length; i++) {
-	    const row = table.insertRow();
-	    const nameCell = row.insertCell();
-	    const dateCell = row.insertCell();
-	    const descriptionCell = row.insertCell();
+    if (del_after_loading_id != null) {
+      var del = document.getElementById(del_after_loading_id);
+      del.remove();
+    }
+  }
 
-	    name = index_json[i]["name"];
-	    href = index_json[i]["href"];
-	    date = index_json[i]["date"];
-	    description = index_json[i]["description"];
+  regenerate_table() {
+    if (this.json != null) {
+      this.json = this.resort_json();
+      var table = this.create_table();
+      var div_table = document.getElementById(this.div_table_id);
+      div_table.innerText = "";
+      div_table.appendChild(table);
+    }
+  }
 
-	    if (href == "" || href == null) {
-	      nameCell.appendChild(document.createTextNode(name));
+  resort_json() {
+    if (this.sort_mode != null) {
+      this.json.sort((a, b) => {
+          var r = (a[this.sort_mode].localeCompare(b[this.sort_mode]));
+          return r;
+      });
+    }
 
-	    } else {
-	      const a = document.createElement('a');
-	      a.innerText = name;
-	      a.href = href;
-	      nameCell.appendChild(a);
-	    }
-	    
-	    const t = document.createElement('time');
-	    t.innerText = date;
-	    dateCell.appendChild(t);
+    if (this.sort_mode_reverse) this.json.reverse();
+    return this.json;
+  }
 
-		descriptionCell.appendChild(document.createTextNode(description));
-	}
+  create_table() {
+    var table = document.createElement("TABLE");
 
-	return table;
-}
+    // header
+    let r = (cell, sort_key, name) => {
+      cell.onclick = () => this.on_header_click(sort_key);
+      if (this.sort_mode == sort_key) {
+        if (this.sort_mode_reverse) {
+          headerCell.innerHTML = name + "↓";
+        } else {
+          headerCell.innerHTML = name + "↑";
+        }
+      } else {
+        headerCell.innerHTML = name;
+      }
+    };
 
-function openfiletablejs_sort_json() {
-	if (sort_mode != null) {
-		index_json.sort((a, b) => {
-	        var r = (a[sort_mode].localeCompare(b[sort_mode]));
-	        return r;
-	    });
-	}
+    // HEADER
+    var header_row = table.insertRow();
+    for (var i = 0; i < this.header_names.length; i++) {
+      var headerCell = document.createElement("TH");
+      
+      if (i == 0) r(headerCell, "name", this.header_names[i]);
+      if (i == 1) r(headerCell, "date", this.header_names[i]);
+      if (i == 2) r(headerCell, "description", this.header_names[i]);
 
-	if (sort_mode_reverse) index_json.reverse();
-    return index_json;
-}
+      header_row.appendChild(headerCell);
+    }
 
-function openfiletablejs_header_clicked(id) {
-	if (sort_mode == id) {
-		sort_mode_reverse = !sort_mode_reverse;
-	} else {
-		sort_mode_reverse = false;
-	}
-	sort_mode = id;
-	openfiletablejs_regenerate_table();
-}
+    // Dara
+    for (var i = 0; i < this.json.length; i++) {
+      const row = table.insertRow();
+      const nameCell = row.insertCell();
+      const dateCell = row.insertCell();
+      const descriptionCell = row.insertCell();
 
-function openfiletablejs_regenerate_table() {
-	if (index_json != null) {
-		index_json = openfiletablejs_sort_json()
-		var table = openfiletablejs_generateTable();
+      var name = this.json[i]["name"];
+      var href = this.json[i]["href"];
+      var date = this.json[i]["date"];
+      var description = this.json[i]["description"];
 
-		var div_table = document.getElementById(div_table_id);
-		div_table.innerText = "";
-		div_table.appendChild(table);
-	}
-}
+      // name
+      if (href == "" || href == null) {
+        nameCell.appendChild(document.createTextNode(name));
 
-function openfiletablejs_load(url_to_index, del_after_loading_id, error_id) {
-	fetch(url_to_index)
-		.then(response => response.json())
-		.then(json => {
-			index_json = json;
-			openfiletablejs_regenerate_table();
-		})
-		.catch(error => {
-			console.log(error);
-			if (error_id != null) {
-				const err = document.getElementById(error_id);
-				err.innerText = error;
-			}
-		});
+      } else {
+        const a = document.createElement('a');
+        a.innerText = name;
+        a.href = href;
+        nameCell.appendChild(a);
+      }
+      
+      // date
+      const t = document.createElement('time');
+      t.innerText = date;
+      dateCell.appendChild(t);
 
+      // description
+      descriptionCell.appendChild(document.createTextNode(description));
+    }
 
-	if (del_after_loading_id != null) {
-		var	del = document.getElementById(del_after_loading_id);
-		del.remove();
-	}
-}
+    return table;
+  }
 
-function openfiletablejs_setup(_div_table_id, _header_names, _sort_mode) {
-	div_table_id = _div_table_id;
-	header_names = _header_names;
-	sort_mode = _sort_mode;
+  on_header_click(sort_key) {
+    if (this.sort_mode == sort_key) {
+      this.sort_mode_reverse = !this.sort_mode_reverse;
+    } else {
+      this.sort_mode_reverse = false;
+    }
+    this.sort_mode = sort_key;
+    this.regenerate_table();
+  }
 }
