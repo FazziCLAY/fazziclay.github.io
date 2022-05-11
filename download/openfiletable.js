@@ -1,10 +1,10 @@
 class OpenFileTable {
   constructor(div_table_id, header_names, sort_mode, sort_mode_reverse) {
-    this.json = null;
     this.div_table_id = div_table_id;
     this.header_names = header_names;
     this.sort_mode = sort_mode;
     this.sort_mode_reverse = sort_mode_reverse;
+    this.json = null;
   }
 
   load(url_to_index, del_after_loading_id, error_id) {
@@ -13,6 +13,11 @@ class OpenFileTable {
       .then(json => {
         this.json = json;
         this.regenerate_table();
+
+        if (del_after_loading_id != null) {
+          var del = document.getElementById(del_after_loading_id);
+          del.remove();
+        }
       })
       .catch(error => {
         console.log(error);
@@ -21,12 +26,6 @@ class OpenFileTable {
           err.innerText = error;
         }
       });
-
-
-    if (del_after_loading_id != null) {
-      var del = document.getElementById(del_after_loading_id);
-      del.remove();
-    }
   }
 
   regenerate_table() {
@@ -59,9 +58,9 @@ class OpenFileTable {
       cell.onclick = () => this.on_header_click(sort_key);
       if (this.sort_mode == sort_key) {
         if (this.sort_mode_reverse) {
-          headerCell.innerHTML = name + "↓";
-        } else {
           headerCell.innerHTML = name + "↑";
+        } else {
+          headerCell.innerHTML = name + "↓";
         }
       } else {
         headerCell.innerHTML = name;
@@ -80,7 +79,7 @@ class OpenFileTable {
       header_row.appendChild(headerCell);
     }
 
-    // Dara
+    // Data
     for (var i = 0; i < this.json.length; i++) {
       const row = table.insertRow();
       const nameCell = row.insertCell();
