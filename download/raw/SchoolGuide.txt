@@ -1,0 +1,8 @@
+ColorUtil.colorize(String text, int defaultFgColor, int defaultBgColor, int defaultStyle):
+	- foreground
+	= background
+	@ style
+	"Hello &[-#ffffff;=#44666666;@italicbold]World"
+	"Hello &[@bolditalic]World"
+	"Hello &[-#ffffff]World"
+	"Hello &[=#44666666]World"

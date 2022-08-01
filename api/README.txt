@@ -4,3 +4,4 @@ Format: https://fazziclay.github.io/api/project_90009/
 Projects ids:
 1 - SchoolGuide
 2 - evacuation_of_thoughts
+3 - OpenToday
