@@ -72,7 +72,6 @@
     "description": "[MY_ART] in GIMP - Lubuntu - Linux"
   },
   {
-<<<<<<< HEAD
     "name": "SchoolGuide.txt",
     "href": "https://fazziclay.github.io/download/raw/SchoolGuide.txt",
     "date": "2022-01-21",
@@ -119,11 +118,11 @@
     "href": "https://fazziclay.github.io/download/raw/Untitled-minecraft-optimization-unknown2021.png",
     "date": "2021-??-??",
     "description": "minecraft optimization plan (no copyright...)"
-=======
+  },
+  {
     "name": "Tele2-tarifs-2022-sheet.ods",
     "href": "https://fazziclay.github.io/download/raw/Tele2-tarifs-2022-sheet.ods",
     "date": "2022-05-31",
     "description": "Тарифы теле2 сравнение на 2022 начало лета"
->>>>>>> d92a60aa4eee8fb93e977f1da72911f68de6ef77
   }
 ]
