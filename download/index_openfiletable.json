@@ -127,8 +127,14 @@
     },
     {
         "date": "0000-00-00",
-        "description": "TODO: Change description",
-        "href": "./opentoday-release-build12.apk",
+        "description": "[OpenToday] build 12",
+        "href": "https://fazziclay.github.io/download/raw/opentoday-release-build12.apk",
         "name": "opentoday-release-build12.apk"
+    },
+    {
+        "date": "2022-08-03 15:00",
+        "description": "[OpenToday] build 14: bug fixes",
+        "href": "https://fazziclay.github.io/download/raw/opentoday-release-build14.apk",
+        "name": "opentoday-release-build14.apk"
     }
 ]
