@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <title>Mironov Stanislav Public acrhive</title>
-  <link rel="stylesheet" type="text/css" href="./style.css">
-  <script src="./openfiletable.js"></script>
+  <link rel="stylesheet" type="text/css" href="/css/download_table_style.css">
+  <script src="/js/openfiletable.js"></script>
 </head>
 <body>
   <h1><a href="https://fazziclay.github.io">Mironov Stanislav</a> Public archive</h1>
-  <p>Open <a href="index.json">index.json</a> for json this data format</p>
+  <p>Open <a href="index_openfiletable.json">index_openfiletable.json</a> for json this data format</p>
   <hr>
   <div id="tttable">
     <h1 id="tttable_loading">Loading...</h1>
@@ -17,6 +17,6 @@
 </body>
 <script type="text/javascript">
   let app = new OpenFileTable("tttable", ["Name", "Date", "Description"], "name", false);
-  app.load("./index.json", "tttable_loading", "tttable_error");
+  app.load("./index_openfiletable.json", "tttable_loading", "tttable_error");
 </script>
 </html>
