@@ -42,20 +42,71 @@ body {
 
 .linkgroup_header {
 	color: #afd0ff;
-	font-size: 230%;   	
+	font-size: 230%;
 }
 
-.link {            
+#link_text {
+	font-size: 200%;
+	color: #fafaff;
+}
+/*
+==== me header
+*/
+.me_link {            
+	color: #ffffff;
+	font-size: 200%;
+}
+
+.me_link:hover {
+	color: #00aaff;
+	padding-left: 0.05%;
+}
+
+
+/*
+==== projects header
+*/
+.projects_line {            
 	color: #d4d4ff;
 	font-size: 200%;
 }
 
-.link:hover {
-	color: #00aaff;
+.projects_link {
+	color: #ffffff;
 }
 
 
+.projects_link:hover {
+	color: #00aaff;
+	padding-left: 0.05%;
+}
 
 
+/*
+==== other header
+*/
+.other_link {
+	color: #ffffff;
+	font-size: 200%;
+}
+
+.other_link:hover {
+	color: #00aaff;
+	padding-left: 0.05%;
+}
 
 
+.donate_link {
+	color: #ffffff;
+	font-size: 200%;
+}
+
+.donate_line {
+	color: #ffffff;
+	font-size: 200%;
+}
+
+.donate_link:hover {
+	color: #00aaff;
+	padding-left: 0.05%;
+}
