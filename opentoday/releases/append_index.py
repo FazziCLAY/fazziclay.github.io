@@ -1,5 +1,6 @@
 INDEX_FILE = "./index_openfiletable.json"
 FOLDER = "./raw"
+HREF_PREFIX = "https://fazziclay.github.io/opentoday/releases/raw/";
 
 import os
 import json
@@ -17,7 +18,7 @@ def main():
 		if (contain == False):
 			index.append({
 					"name": i,
-					"href": "./" + i,
+					"href": HREF_PREFIX + i,
 					"date": "0000-00-00",
 					"description": "TODO: Change description"
 				});

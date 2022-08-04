@@ -2,19 +2,19 @@
     {
         "date": "0000-00-00",
         "description": "TODO: Change description",
-        "href": "./opentoday-release-build16.apk",
+        "href": "https://fazziclay.github.io/opentoday/releases/raw/opentoday-release-build16.apk",
         "name": "opentoday-release-build16.apk"
     },
     {
         "date": "0000-00-00",
         "description": "TODO: Change description",
-        "href": "./opentoday-release-build14.apk",
+        "href": "https://fazziclay.github.io/opentoday/releases/raw/opentoday-release-build14.apk",
         "name": "opentoday-release-build14.apk"
     },
     {
-        "date": "0000-00-00",
+        "date": "0001-00-00",
         "description": "TODO: Change description",
-        "href": "./opentoday-release-build12.apk",
+        "href": "https://fazziclay.github.io/opentoday/releases/raw/opentoday-release-build12.apk",
         "name": "opentoday-release-build12.apk"
     }
 ]
