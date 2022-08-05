@@ -1,4 +1,4 @@
-const FILE_URL = "https://fazziclay.github.io/api/project_3/v1/latest/url" // todo: owo
+const FILE_URL = "https://fazziclay.github.io/api/project_3/v1/latest/direct_url"
 
 
 latest_id = "";
