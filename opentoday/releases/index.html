@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>OpenToday download acrhive</title>
   <link rel="stylesheet" type="text/css" href="/css/download_table_style.css">
-  <script src="/js/openfiletable.js"></script>
+  <script src="./openfiletable_opentodayversion.js"></script>
 </head>
 <body>
   <h1><a href="https://fazziclay.github.io/opentoday">OpenToday</a> Download archive</h1>
@@ -16,7 +16,7 @@
   </div>
 </body>
 <script type="text/javascript">
-  let app = new OpenFileTable("tttable", ["File name", "Release date", "Changelog"], "date", true);
+  let app = new OpenFileTable("tttable", ["Application", "Sources", "Release date", "Changelog"], "date", true);
   app.load("./index_openfiletable.json", "tttable_loading", "tttable_error");
 </script>
 </html>

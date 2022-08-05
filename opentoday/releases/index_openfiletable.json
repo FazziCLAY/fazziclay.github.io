@@ -3,18 +3,34 @@
         "date": "0000-00-00",
         "description": "TODO: Change description",
         "href": "https://fazziclay.github.io/opentoday/releases/raw/opentoday-release-build16.apk",
-        "name": "opentoday-release-build16.apk"
+        "name": "opentoday-release-build16.apk",
+        "sources": "owo",
+        "sources_href": "https://fazziclay.github.io/opentoday/releases/raw/owo"
     },
     {
         "date": "0000-00-00",
         "description": "TODO: Change description",
         "href": "https://fazziclay.github.io/opentoday/releases/raw/opentoday-release-build14.apk",
-        "name": "opentoday-release-build14.apk"
+        "name": "opentoday-release-build14.apk",
+        "sources": "owo",
+        "sources_href": "https://fazziclay.github.io/opentoday/releases/raw/owo"
     },
     {
-        "date": "0001-00-00",
+        "date": "0000-00-00",
         "description": "TODO: Change description",
         "href": "https://fazziclay.github.io/opentoday/releases/raw/opentoday-release-build12.apk",
-        "name": "opentoday-release-build12.apk"
+        "name": "opentoday-release-build12.apk",
+        "sources": "owo",
+        "sources_href": "https://fazziclay.github.io/opentoday/releases/raw/owo"
+    },
+    {
+        "build": "00019",
+        "date": "2022-08-05 16:30:00",
+        "description": "* Added 'Edit Text' to right swipe menu\n* if minimize: show first text line & bug fixes",
+        "href": "https://fazziclay.github.io/opentoday/releases/raw/opentoday-release-build19.apk",
+        "name": "opentoday-release-build19.apk",
+        "sources": "opentoday-sources-build19.zip",
+        "sources_href": "https://fazziclay.github.io/opentoday/releases/raw/opentoday-sources-build19.zip",
+        "version_name": "0.3.1"
     }
 ]
