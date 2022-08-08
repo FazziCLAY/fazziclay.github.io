@@ -42,5 +42,15 @@
         "sources": "opentoday-sources-build22.zip",
         "sources_href": "https://fazziclay.github.io/opentoday/releases/raw/opentoday-sources-build22.zip",
         "version_name": "0.4.0"
+    },
+    {
+        "build": "00025",
+        "date": "2022-08-08",
+        "description": "added toolbar",
+        "href": "https://fazziclay.github.io/opentoday/releases/raw/opentoday-release-build25.apk",
+        "name": "opentoday-release-build25.apk",
+        "sources": "soon...",
+        "sources_href": "",
+        "version_name": "0.5.0"
     }
 ]
