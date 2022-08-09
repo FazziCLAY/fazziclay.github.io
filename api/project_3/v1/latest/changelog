@@ -1,17 +1,1 @@
-* Added toolbar! (Android ActionBar is hide)
-* Multi selection
-* Deselect button
-* Auto-save optimized
-* Save button
-* Added External Editor for CycleListItem & GroupItem (DialogItemStorageEditor)
-* ItemDialog remove items edit from CycleList & Group (use ExternalEditor (ED Button in Item))
-* Fix crash cause selection
-* Optimize saving for Right-swipe popup menu
-* fix big bugs count ,,
-
-TODO:
-Rename:
- MainActivity::setuoHEADER
- xml:toolbarAllViews -> toolbarMore
-Delete Settings activity: (empty...)
-Add cache to toolbar(Item) view.getParent().removeView(view)
+* fix bugs & optimizations
