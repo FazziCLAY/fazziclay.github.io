@@ -1,29 +1,5 @@
 [
     {
-        "date": "0000-00-00",
-        "description": "TODO: Change description",
-        "href": "https://fazziclay.github.io/opentoday/releases/raw/opentoday-release-build16.apk",
-        "name": "opentoday-release-build16.apk",
-        "sources": "owo",
-        "sources_href": "https://fazziclay.github.io/opentoday/releases/raw/owo"
-    },
-    {
-        "date": "0000-00-00",
-        "description": "TODO: Change description",
-        "href": "https://fazziclay.github.io/opentoday/releases/raw/opentoday-release-build14.apk",
-        "name": "opentoday-release-build14.apk",
-        "sources": "owo",
-        "sources_href": "https://fazziclay.github.io/opentoday/releases/raw/owo"
-    },
-    {
-        "date": "0000-00-00",
-        "description": "TODO: Change description",
-        "href": "https://fazziclay.github.io/opentoday/releases/raw/opentoday-release-build12.apk",
-        "name": "opentoday-release-build12.apk",
-        "sources": "owo",
-        "sources_href": "https://fazziclay.github.io/opentoday/releases/raw/owo"
-    },
-    {
         "build": "00019",
         "date": "2022-08-05 16:30:00",
         "description": "* Added 'Edit Text' to right swipe menu\n* if minimize: show first text line & bug fixes",
@@ -46,11 +22,11 @@
     {
         "build": "00025",
         "date": "2022-08-08",
-        "description": "added toolbar",
+        "description": "* Added toolbar! (Android ActionBar is hide)\n* Multi selection\n* Deselect button\n* Auto-save optimized\n* Save button\n* Added External Editor for CycleListItem & GroupItem (DialogItemStorageEditor)\n* ItemDialog remove items edit from CycleList & Group (use ExternalEditor (ED Button in Item))\n* Fix crash cause selection\n* Optimize saving for Right-swipe popup menu\n* fix big bugs count ,,\nTODO:\nRename:\n MainActivity::setuoHEADER\n xml:toolbarAllViews -> toolbarMore\nDelete Settings activity: (empty...)\nAdd cache to toolbar(Item) view.getParent().removeView(view)",
         "href": "https://fazziclay.github.io/opentoday/releases/raw/opentoday-release-build25.apk",
         "name": "opentoday-release-build25.apk",
-        "sources": "soon...",
-        "sources_href": "",
+        "sources": "opentoday-release-build25-sources.zip",
+        "sources_href": "https://fazziclay.github.io/opentoday/releases/raw/opentoday-release-build25-sources.zip",
         "version_name": "0.5.0"
     }
 ]

@@ -73,10 +73,11 @@ class OpenFileTable {
     for (var i = 0; i < this.header_names.length; i++) {
       var headerCell = document.createElement("TH");
       
-      if (i == 0) r(headerCell, "name", this.header_names[i]);
-      if (i == 1) r(headerCell, "sources", this.header_names[i]);
-      if (i == 2) r(headerCell, "date", this.header_names[i]);
-      if (i == 3) r(headerCell, "description", this.header_names[i]);
+      if (i == 0) r(headerCell, "build", this.header_names[i]);
+      if (i == 1) r(headerCell, "name", this.header_names[i]);
+      if (i == 2) r(headerCell, "sources", this.header_names[i]);
+      if (i == 3) r(headerCell, "date", this.header_names[i]);
+      if (i == 4) r(headerCell, "description", this.header_names[i]);
 
       header_row.appendChild(headerCell);
     }
@@ -84,11 +85,13 @@ class OpenFileTable {
     // Data
     for (var i = 0; i < this.json.length; i++) {
       const row = table.insertRow();
+      const buildCell = row.insertCell();
       const nameCell = row.insertCell();
       const sourcesCell = row.insertCell();
       const dateCell = row.insertCell();
       const descriptionCell = row.insertCell();
 
+      var build = this.json[i]["build"];
       var name = this.json[i]["name"];
       var sources = this.json[i]["sources"];
       var sources_href = this.json[i]["sources_href"];
@@ -96,6 +99,8 @@ class OpenFileTable {
       var date = this.json[i]["date"];
       var description = this.json[i]["description"];
 
+
+      buildCell.appendChild(document.createTextNode(build));
       // name
       if (sources_href == "" || sources_href == null) {
         sourcesCell.appendChild(document.createTextNode(sources));
@@ -119,7 +124,9 @@ class OpenFileTable {
       dateCell.appendChild(t);
 
       // description
-      descriptionCell.appendChild(document.createTextNode(description));
+	var d = document.createElement('text');
+	d.innerHTML = description.replaceAll("\n", "<br>");
+      descriptionCell.appendChild(d);
     }
 
     return table;
