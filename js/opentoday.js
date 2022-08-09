@@ -68,7 +68,7 @@ function loadLatestData(idd) {
 
 function updateLatest() {
 	const rrr = document.getElementById(latest_id);
-	rrr.innerHTML = "Latest ("+latest_date+") "+latest_name+" build "+latest_build+":<br>"+latest_changelog.replace("\n", "<br>");
+	rrr.innerHTML = "Latest ("+latest_date+") "+latest_name+" build "+latest_build+":<br>"+latest_changelog.replaceAll("\n", "<br>");
 }
 
 function download(url) {
