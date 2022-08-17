@@ -1,8 +1,4 @@
-* Toolbar changed style
-* Toolbar selection->delete
-* Toolbar items->onLeftSwipe & onClick
-* Items notifications!
-* Chanded style of minimize
-* Quick note
-* Optimize app background activity (use AlaramManager вместо Service)
-* Update checker cache! (for network reduce)
+* Bug fixes
+* Cleanup
+* Toolbar fix bugs
+* Optimize UI
