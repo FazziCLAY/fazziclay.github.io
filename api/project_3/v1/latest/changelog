@@ -1,6 +1,9 @@
-# 0.8.2
+# 0.8.2:
 * Fix crash reporter
 * Fixed bugs
 
 # 0.8.2.1:
 * HOTFIX: show only first text line in DialogItem path
+
+# 0.8.2.2:
+* Fix CycleList item bug (not save text and etc)
