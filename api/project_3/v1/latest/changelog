@@ -1,15 +1,4 @@
-# 0.9:
-* Changed theme
-* Added URL support to import
-* Changes in UI
-
-# 0.9.1:
-* HOTFIX: Fix crash bug
-* added easterEgg :)
-
-# 0.9.2:
-* Added telemetry
-
-# 0.9.3:
-* Fix telemetry
-* Fix import bug
+# 0.9.4
+* Added tabs
+* Fix bugs
+* Merge dialogUI to FragmentUI
