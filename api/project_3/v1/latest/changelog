@@ -1,7 +1,9 @@
-# 0.9.4
-* Added tabs
-* Fix bugs
-* Merge dialogUI to FragmentUI
-
-# 0.9.5
-* Critical bug fixes
+# 0.9.6
+* Fixes
+* Tabs reorder
+* new tab system
+* better crahsReport
+* Dialog -> Fragments
+* item edit dialog -> fragment
+* About dialog
+* FilterGroup filter enum
