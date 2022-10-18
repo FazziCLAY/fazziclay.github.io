@@ -15,7 +15,7 @@
 		<text>Versions archive: <a href="https://github.com/fazziclay/opentoday/releases">Releases</a></text><br>
 
 		<div style="text-align:center;">
-		    <button id="download_button" onclick="tryDownloadLatest();">Скачать / Download</button>
+		    <button id="download_button" onclick="tryDownloadLatest();">Download</button>
 		</div><br>
 
 		<text id="latest_text">Latest:</text>
@@ -23,5 +23,12 @@
 	</div>
 
 	<script>loadLatestData("latest_text");</script>
+	<script type="text/javascript">
+	if (navigator.language.includes("ru")) {
+		var d = document.getElementById("download_button");
+      		d.innerText = "Download / Скачать";
+	}
+
+</script>
 </body>
 </html>
