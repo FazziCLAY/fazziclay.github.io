@@ -14,3 +14,6 @@
 
 # 0.9.7.1
 * Fix critical crash
+
+# 0.9.7.2
+* Fix dialog item bug
