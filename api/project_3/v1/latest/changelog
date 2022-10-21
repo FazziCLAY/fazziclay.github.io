@@ -11,3 +11,6 @@
 * Fix missing save
 * Fix clear path if fragment restored
 * Toolbar->Items '+' button now work!
+
+# 0.9.7.1
+* Fix critical crash
