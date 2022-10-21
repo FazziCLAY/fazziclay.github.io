@@ -1,9 +1,13 @@
-# 0.9.6
-* Fixes
-* Tabs reorder
-* new tab system
-* better crahsReport
-* Dialog -> Fragments
-* item edit dialog -> fragment
-* About dialog
-* FilterGroup filter enum
+# 0.9.7
+* Fix crash on OpenSourceLicences
+* New settings: trim item names
+* Fix settings missing gray color start value
+* Fix translates
+* Polished user-interface
+* Fix filter another width for 'value'
+* Before exit now closed toolbar if open
+* Toolbar->Tabs: now edit clicked tab
+* Uses styles in about & settings layout
+* Fix missing save
+* Fix clear path if fragment restored
+* Toolbar->Items '+' button now work!
