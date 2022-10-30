@@ -142,5 +142,23 @@
         "description": "[OpenToday] build 16: fix bug cycleList",
         "href": "https://fazziclay.github.io/download/raw/opentoday-release-build16.apk",
         "name": "opentoday-release-build16.apk"
+    },
+    {
+        "date": "2022-10-30",
+        "description": "[rus_lang_school] goncharov #0",
+        "href": "https://fazziclay.github.io/download/raw/ivan_aleksandrovich_goncharov_-_kopiya_0.pptx",
+        "name": "ivan_aleksandrovich_goncharov_-_kopiya_0.pptx"
+    },
+    {
+        "date": "2022-10-30",
+        "description": "[rus_lang_school] goncharov #1",
+        "href": "https://fazziclay.github.io/download/raw/gonsharov-1.pptx",
+        "name": "gonsharov-1.pptx"
+    },
+    {
+        "date": "[rus_lang_school] goncharov #2",
+        "description": "TODO: Change description",
+        "href": "https://fazziclay.github.io/download/raw/gonsharov-2.pptx",
+        "name": "gonsharov-2.pptx"
     }
 ]
