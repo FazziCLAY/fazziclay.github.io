@@ -1,19 +1,21 @@
-# 0.9.7
-* Fix crash on OpenSourceLicences
-* New settings: trim item names
-* Fix settings missing gray color start value
-* Fix translates
-* Polished user-interface
-* Fix filter another width for 'value'
-* Before exit now closed toolbar if open
-* Toolbar->Tabs: now edit clicked tab
-* Uses styles in about & settings layout
-* Fix missing save
-* Fix clear path if fragment restored
-* Toolbar->Items '+' button now work!
+# 0.9.8:
+-- Items --
+Added Item LongText
+Added Item DebugTickCounter
 
-# 0.9.7.1
-* Fix critical crash
+-- UI --
+MainActivity: show calendar on date click
+Toolbar fixes and refactor
 
-# 0.9.7.2
-* Fix dialog item bug
+-- Save --
+Use GZip for import/export
+Use GZip for save (and original file)
+
+-- Dev --
+Added FeatureFlags
+Added ColorHistoryManager to ItemEditor
+New app icon for DEBUG version
+Fix bug: filter group position
+Fix bug: Copy UI break
+big renames
+ItemsStorage: add method addItem(Item item, int positionToAdd)
