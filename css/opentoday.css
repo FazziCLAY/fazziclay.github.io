@@ -16,11 +16,70 @@ a:hover {
 	color: #00ffdf;
 }
 
+
+
+div.screenshots {
+	text-align: center;
+	overflow: auto;    
+}
+
+div.screenshots img {
+	max-height: 300px;
+}
+
+
+
+
 .app_title {
 	font-size: 400%;
 	width: max-content;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.how_to_use {
+	font-size: 200%;
+	color: #00ff15;   
+
+}
+
+.how_to_use_link {
+	font-size: 110%;
+	color: #00a2ff;   
+
+}
+
+.latest_title {
+	font-size: 270%;
+	color: #ffffff;   
+}
+
+.latest_date {
+	font-size: 250%;
+	color: #8757ff;   
+}
+
+.latest_versionName {
+	font-size: 250%;
+	color: #57ddff;     
+}
+
+
+.latest_build {
+	font-size: 270%;
+	color: #ffffff;      
+}
+
+.latest_versionBuild {
+	font-size: 250%;
+	color: #5776ff;      
+}
+                          
+
+.latest_changelog {
+	font-size: 150%;
+	color: #70ffbc;   
+   
 }
 
 #download_button {

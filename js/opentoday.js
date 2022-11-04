@@ -1,7 +1,11 @@
 const FILE_URL = "https://fazziclay.github.io/api/project_3/v1/latest/direct_url"
 
 
-latest_id = "";
+dateId = "";
+nameId = "";
+buildId = "";
+changelogId = "";
+
 latest_date = "????-??-??";
 latest_name = "?";
 latest_build = "?";
@@ -25,16 +29,19 @@ function fazziclay_error(e) {
 	document.location.href = "https://github.com/fazziclay/opentoday";
 }
 
-function loadLatestData(idd) {
-	latest_id = idd;
-	updateLatest();
+function initOpentoday(_date, _name, _build, _changelog) {
+	dateId = _date;
+	nameId = _name;
+	buildId = _build;
+	changelogId = _changelog;
+
 
 	fetch("/api/project_3/v1/latest/date")
 	.then(response => {
 		response.text()
 		.then(text => {
-			latest_date = text;
-			updateLatest();
+			latest_date = text.trim();
+			updateDate();
 		});
 	});
 
@@ -42,8 +49,8 @@ function loadLatestData(idd) {
 	.then(response => {
 		response.text()
 		.then(text => {
-			latest_name = text;
-			updateLatest();
+			latest_name = text.trim();
+			updateVersionName();
 		});
 	});
 
@@ -51,8 +58,8 @@ function loadLatestData(idd) {
 	.then(response => {
 		response.text()
 		.then(text => {
-			latest_build = text;
-			updateLatest();
+			latest_build = text.trim();
+			updateVersionBuild();
 		});
 	});
 
@@ -60,16 +67,37 @@ function loadLatestData(idd) {
 	.then(response => {
 		response.text()
 		.then(text => {
-			latest_changelog = text;
-			updateLatest();
+			latest_changelog = text.trim();
+			updateChangelog();
 		});
 	});
 }
 
-function updateLatest() {
-	const rrr = document.getElementById(latest_id);
-	rrr.innerHTML = "Latest ("+latest_date+") "+latest_name+" build "+latest_build+":<br>"+latest_changelog.replaceAll("\n", "<br>");
+function updateDate() {
+	const rrr = document.getElementById(dateId);
+	rrr.innerHTML = latest_date;
 }
+
+
+function updateVersionName() {
+	const rrr = document.getElementById(nameId);
+	rrr.innerHTML = latest_name;
+}
+
+
+
+function updateVersionBuild() {
+	const rrr = document.getElementById(buildId);
+	rrr.innerHTML = latest_build;
+}
+
+
+
+function updateChangelog() {
+	const rrr = document.getElementById(changelogId);
+	rrr.innerHTML = latest_changelog.replaceAll("\n", "<br>");
+}
+
 
 function download(url) {
 	// Create a new link

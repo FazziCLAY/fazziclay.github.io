@@ -13,22 +13,57 @@
 		<text>Developer: <a href="https://fazziclay.github.io">@FazziCLAY</a></text><br>
 		<text>Sources: <a href="https://github.com/fazziclay/opentoday/">Github</a></text><br>
 		<text>Versions archive: <a href="https://github.com/fazziclay/opentoday/releases">Releases</a></text><br>
+		
 
+<br>		
+		
+		<a href="https://github.com/FazziCLAY/OpenToday/blob/main/LICENSE"><img src="https://img.shields.io/github/license/fazziclay/opentoday?color=%2300bb00&style=for-the-badge" alt="license"/></a>
+		<a href="https://github.com/FazziCLAY/OpenToday/releases"><img src="https://img.shields.io/github/v/release/fazziclay/opentoday?style=for-the-badge" alt="license"/></a>
+		<a href="https://apt.izzysoft.de/fdroid/index/apk/ru.fazziclay.opentoday"><img src="https://img.shields.io/endpoint?style=for-the-badge&url=https://apt.izzysoft.de/fdroid/api/v1/shield/ru.fazziclay.opentoday" alt="Available on IzzyOnDroid"/></a>
+
+		<br><br>
+		<text class="how_to_use">HOW TO USE: <a class="how_to_use_link" href="https://github.com/FazziCLAY/OpenToday/blob/main/README.md#opentoday">README.md</a></text><br>
+	
+		<br>
+		
 		<div style="text-align:center;">
 		    <button id="download_button" onclick="tryDownloadLatest();">Download</button>
-		</div><br>
+		</div>
+		<br>
 
-		<text id="latest_text">Latest:</text>
+<div class="screenshots">
+    <a href="https://apt.izzysoft.de//fdroid/repo/ru.fazziclay.opentoday/en-US/phoneScreenshots/01.jpg"><img src="https://apt.izzysoft.de/fdroid/repo/ru.fazziclay.opentoday/en-US/phoneScreenshots/01.jpg" alt="01.jpg"></a>
+    <a href="https://apt.izzysoft.de//fdroid/repo/ru.fazziclay.opentoday/en-US/phoneScreenshots/02.jpg"><img src="https://apt.izzysoft.de/fdroid/repo/ru.fazziclay.opentoday/en-US/phoneScreenshots/02.jpg" alt="02.jpg"></a>
+    <a href="https://apt.izzysoft.de//fdroid/repo/ru.fazziclay.opentoday/en-US/phoneScreenshots/03.jpg"><img src="https://apt.izzysoft.de/fdroid/repo/ru.fazziclay.opentoday/en-US/phoneScreenshots/03.jpg" alt="03.jpg"></a>
+    <a href="https://apt.izzysoft.de//fdroid/repo/ru.fazziclay.opentoday/en-US/phoneScreenshots/04.jpg"><img src="https://apt.izzysoft.de/fdroid/repo/ru.fazziclay.opentoday/en-US/phoneScreenshots/04.jpg" alt="04.jpg"></a>
+    <a href="https://apt.izzysoft.de//fdroid/repo/ru.fazziclay.opentoday/en-US/phoneScreenshots/05.jpg"><img src="https://apt.izzysoft.de/fdroid/repo/ru.fazziclay.opentoday/en-US/phoneScreenshots/05.jpg" alt="05.jpg"></a>
+    <a href="https://apt.izzysoft.de//fdroid/repo/ru.fazziclay.opentoday/en-US/phoneScreenshots/06.jpg"><img src="https://apt.izzysoft.de/fdroid/repo/ru.fazziclay.opentoday/en-US/phoneScreenshots/06.jpg" alt="06.jpg"></a>
+</div>
+		
+		<text class="latest_title">Latest: </text>
+		<text class="latest_date" id="latest_date">----.--.--</text><text> </text>
+		<text class="latest_versionName" id="latest_versionName">-.-</text><text> </text>
+		<text class="latest_build">build</text><text> </text>
+		<text class="latest_versionBuild" id="latest_versionBuild">-</text>
+		<br>
+
+		<text class="latest_changelog" id="latest_changelog">Nothing...</text>
+                   
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 
 	</div>
 
-	<script>loadLatestData("latest_text");</script>
+	<script>initOpentoday("latest_date", "latest_versionName", "latest_versionBuild", "latest_changelog");</script>
 	<script type="text/javascript">
-	if (navigator.language.includes("ru")) {
-		var d = document.getElementById("download_button");
-      		d.innerText = "Download / Скачать";
-	}
-
-</script>
+		if (navigator.language.includes("ru")) {
+			var d = document.getElementById("download_button");
+      			d.innerText = "Download / Скачать";
+		}
+	</script>
 </body>
 </html>
