@@ -1,5 +1,13 @@
 {
  "isActive": true,
  "previewMode": true,
- "updateApkDirectUrl":"https://google.com // todo"
+ "updateApkDirectUrl":"https://google.com // todo",
+ "texts": {
+   "default": {
+      "firstMessage": "en test"
+    },
+    "ru": {
+      "firstMessage": "ru test"
+    }
+ }
 }
