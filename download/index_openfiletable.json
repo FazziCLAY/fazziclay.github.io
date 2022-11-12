@@ -154,5 +154,23 @@
         "description": "[rus_lang_school] goncharov #1",
         "href": "https://fazziclay.github.io/download/raw/gonsharov-1.pptx",
         "name": "gonsharov-1.pptx"
+    },
+    {
+        "date": "2022-11-12",
+        "description": "[Physics] Боджинова - 7 класс - \"Ранок\"",
+        "href": "https://fazziclay.github.io/download/raw//Phys_Bojiniva_7.pdf",
+        "name": "Phys_Bojiniva_7.pdf"
+    },
+    {
+        "date": "2022-11-12",
+        "description": "[Physics] Лукашик - 7-9 класс - \"17-е издание\"",
+        "href": "https://fazziclay.github.io/download/raw//Phys_Lukashik_7-9.djvu",
+        "name": "Phys_Lukashik_7-9.djvu"
+    },
+    {
+        "date": "2022-11-12",
+        "description": "[Physics] Пёрышкин - 7 класс - \"14-е издание\"",
+        "href": "https://fazziclay.github.io/download/raw//Phys_Pyoryshkin_7.pdf",
+        "name": "Phys_Pyoryshkin_7.pdf"
     }
 ]
