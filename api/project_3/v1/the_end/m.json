@@ -2,27 +2,74 @@
  "isActive": true,
  "previewMode": true,
  "updateApkDirectUrl":"https://google.com // todo",
- "texts_default_key": "default",
+ "allowedBuilds": [
+   73
+ ],
+ "texts_defaultLocale": "default",
  "texts": {
    "default": {
-      "firstMessage": "en test",
-      "downloadButtonText": "Download NEW",
-      "downloadDescription": "Ссылка откроется в браузере, скачивание начнётся сразу"
+      "firstMessage": "$[-#00ff00]Hi!$[-reset] The application $[-#00ff00]OpenToday$[-reset] made a jump up$[-#aaaaaa](The first official release has been released!)$[-reset], and now it exists in a separate view. $[@bold;-#ff3333]If you don't want to lose your data in this application, $[@reset;-reset;=reset] then follow the instructions to transfer them to the new version.$[@reset;-reset;=reset]
+
+----
+$[@reset;-reset;=#006600] • Download and install the new version of the application using the button below. (First button)$[@reset;-reset;=reset]  
+
+$[@reset;-reset;=#000099] • Go back to $[-#ff0000]old version(this one)$[@reset;-reset;=#000099] and using the 2 button here (Export) export your data to the clipboard$[@reset;-reset;=reset]
+
+$[@reset;-#00ff00;=#333333] • Open a new application. $[@reset;-reset;=reset]
+
+$[@reset;-reset;=#333333] • In it (Toolbar at the bottom)
+$[-#11ff11]File -> Import$[-reset]: Paste the text there and follow the instructions.$[@reset;-reset;=reset]
+----
+
+If all the data appeared in the new application, delete the old (this) version of the application.
+
+You can identify apps by the color of the icon!
+$[-#ffff00][!] Your old app changed the icon color to red$[-reset]
+Icon: 
+ • $[-#00ff00]Green - new application $[-reset]
+ • $[-#ff0000]Red - old(delete)$[-reset]
+
+If you have any difficulties, ask for help:
+ • fazziclay@gmail.com
+ • https://fazziclay.github.io",
+      "exportTitle": "After installation, export the data to the new version and use it",
+      "exportButtonText": "Export",
+      "exportDescription": "The data is exported to the clipboard, then paste it into the File -> Import menu in the new application",
+      "downloadTitle": "Download the new version using the button below",
+      "downloadButtonText": "Download NEW version",
+      "downloadDescription": "The link will open in the browser and the download will start instantly.\nAfter install the downloaded application."
     },
     "ru": {
-      "firstMessage": "Пришло время переустановить приложение
+      "firstMessage": "$[-#00ff00]Привет!$[-reset] Приложение $[-#00ff00]OpenToday$[-reset] сделало скачок вверх$[-#aaaaaa](Вышел первый оффициальный релиз!)$[-reset], и теперь оно существует в отдельном ввиде. $[@bold;-#ff3333]Если вы не хотите потерять ваши данные в этом приложении,$[@reset;-reset;=reset] то следуйте инструкциям по их перенесению в новую версию.$[@reset;-reset;=reset]
 
-Новая версия приложения установится как отдельная программа. Если вы не храните в этой версии какие-либо данные. Просто удалите меня.
+----
+$[@reset;-reset;=#006600] • Скачайте и установите новую версию приложения по кнопке ниже. (Первая кнопка)$[@reset;-reset;=reset]  
 
- А если храните я подготовил инструкции и инструменты для переноса данных в новую программу Если вам не составит труда перенести ваши заметки вручную. Просто скачайте новую версию и сделайте это.
+$[@reset;-reset;=#000099] • Вернитесь в $[-#ff0000]старую версию(эту)$[@reset;-reset;=#000099] и используюя 2 кнопку тут(Экспорт) экспортируйте ваши данные в буфер обмена$[@reset;-reset;=reset]
 
-Если же у вас много заметок либо вам просто лень это делать. Воспользуйтесь следующими инструкциями.
+$[@reset;-#00ff00;=#333333] • Откройте новое приложение. $[@reset;-reset;=reset]
 
-Если вам не составит труда перенести ваши заметки вручную. Просто скачайте новую версию и сделайте это.
+$[@reset;-reset;=#333333] • В нем (Тулбар внизу)
+$[-#11ff11]Файл -> Импорт$[-reset]: вставьте текст туда и следуйте указаниям.$[@reset;-reset;=reset]
+----
 
-Если же у вас много заметок либо вам просто лень это делать. Воспользуйтесь следующими инструкциями.",
+Если в новом приложении все данные появились - удалите старую(эту) версию приложения.
+
+Вы можете определить приложения по цвету иконки!
+$[-#ffff00][!] Ваше старое приложение изменило цвет иконки на красный$[-reset]
+Иконка: 
+ • $[-#00ff00]Зеленая - новое приложение$[-reset]
+ • $[-#ff0000]Красная - старое(удалить)$[-reset]
+
+Если у вас возникают трудности, обратитесь за помощью:
+ • fazziclay@gmail.com
+ • https://fazziclay.github.io",
+      "exportTitle": "После установки экспортируйте данные в новую версию и используйте её",
+      "exportButtonText": "Экспортировать",
+      "exportDescription": "Данные экспортируются в буфер обмена, далее вставте их в меню Файл -> Импорт в новом приложении",
+      "downloadTitle": "Скачайте новую версию по кнопке ниже",
       "downloadButtonText": "Скачать НОВУЮ версию",
-      "downloadDescription": "Ссылка откроется в браузере, скачивание начнётся сразу"
+      "downloadDescription": "Ссылка откроется в браузере и скачивание начнётся моментально.\nПосле установите скаченное приложение."
     }
  }
 }
