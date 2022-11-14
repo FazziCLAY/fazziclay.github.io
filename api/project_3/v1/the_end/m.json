@@ -37,7 +37,7 @@ If you have any difficulties, ask for help:
       "exportDescription": "The data is exported to the clipboard, then paste it into the File -> Import menu in the new application",
       "downloadTitle": "Download the new version using the button below",
       "downloadButtonText": "Download NEW version",
-      "downloadDescription": "The link will open in the browser and the download will start instantly.\nAfter install the downloaded application.\nAlternatively, use this link to install the new app using your F-Droid client: https://apt.izzysoft.de/packages/<newPackageName>/"
+      "downloadDescription": "The link will open in the browser and the download will start instantly.\nAfter install the downloaded application.\nAlternatively, use this link to install the new app using your F-Droid client: https://apt.izzysoft.de/packages/com.fazziclay.opentoday%2F"
     },
     "ru": {
       "firstMessage": "$[-#00ff00]Привет!$[-reset] Приложение $[-#00ff00]OpenToday$[-reset] сделало скачок вверх$[-#aaaaaa](Вышел первый оффициальный релиз!)$[-reset], и теперь оно существует в отдельном ввиде. $[@bold;-#ff3333]Если вы не хотите потерять ваши данные в этом приложении,$[@reset;-reset;=reset] то следуйте инструкциям по их перенесению в новую версию.$[@reset;-reset;=reset]
