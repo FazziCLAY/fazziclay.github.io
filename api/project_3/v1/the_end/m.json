@@ -1,7 +1,7 @@
 {
  "isActive": true,
  "previewMode": true,
- "updateApkDirectUrl":"https://fazziclay.github.io/opentoday?todo=change_this_link",
+ "updateApkDirectUrl":"https://fazziclay.github.io/opentoday/opentoday-release-build99-new.apk",
  "allowedBuilds": [
    73,
    80
