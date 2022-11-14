@@ -1,4 +1,4 @@
-const LATEST_JSON = "http://localhost//api/project_3/v2/latest.json"//"https://fazziclay.github.io/api/project_3/v2/latest.json"
+const LATEST_JSON = "https://fazziclay.github.io/api/project_3/v2/latest.json"
 
 
 dateId = "";
