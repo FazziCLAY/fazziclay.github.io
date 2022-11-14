@@ -8,7 +8,7 @@
  "texts_defaultLocale": "default",
  "texts": {
    "default": {
-      "firstMessage": "$[-#00ff00]Hi!$[-reset] The application $[-#00ff00]OpenToday$[-reset] made a jump up$[-#aaaaaa](The first official release has been released!)$[-reset], and now it exists in a separate view. $[@bold;-#ff3333]If you don't want to lose your data in this application, $[@reset;-reset;=reset] then follow the instructions to transfer them to the new version.$[@reset;-reset;=reset]
+      "firstMessage": "$[-#00ff00]Hi!$[-reset] The application $[-#00ff00]OpenToday$[-reset] made a jump up$[-#aaaaaa](The first official release has been released!)$[-reset], and now is released as an entirely new app. $[@bold;-#ff3333]If you don't want to lose your data in this application, $[@reset;-reset;=reset] then follow the instructions to transfer them to the new version.$[@reset;-reset;=reset]
 
 ----
 $[@reset;-reset;=#006600] • Download and install the new version of the application using the button below. (First button)$[@reset;-reset;=reset]  
@@ -37,7 +37,7 @@ If you have any difficulties, ask for help:
       "exportDescription": "The data is exported to the clipboard, then paste it into the File -> Import menu in the new application",
       "downloadTitle": "Download the new version using the button below",
       "downloadButtonText": "Download NEW version",
-      "downloadDescription": "The link will open in the browser and the download will start instantly.\nAfter install the downloaded application."
+      "downloadDescription": "The link will open in the browser and the download will start instantly.\nAfter install the downloaded application.\nAlternatively, use this link to install the new app using your F-Droid client: https://apt.izzysoft.de/packages/<newPackageName>/"
     },
     "ru": {
       "firstMessage": "$[-#00ff00]Привет!$[-reset] Приложение $[-#00ff00]OpenToday$[-reset] сделало скачок вверх$[-#aaaaaa](Вышел первый оффициальный релиз!)$[-reset], и теперь оно существует в отдельном ввиде. $[@bold;-#ff3333]Если вы не хотите потерять ваши данные в этом приложении,$[@reset;-reset;=reset] то следуйте инструкциям по их перенесению в новую версию.$[@reset;-reset;=reset]
