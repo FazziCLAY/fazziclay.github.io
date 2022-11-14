@@ -172,5 +172,11 @@
         "description": "[Physics] Пёрышкин - 7 класс - \"14-е издание\"",
         "href": "https://fazziclay.github.io/download/raw//Phys_Pyoryshkin_7.pdf",
         "name": "Phys_Pyoryshkin_7.pdf"
+    },
+    {
+        "date": "2022-11-14",
+        "description": "OpenToday import public",
+        "href": "https://fazziclay.github.io/download/raw/opentoday_import_school_2022.11.14.txt",
+        "name": "opentoday_import_school_2022.11.14.txt"
     }
 ]
