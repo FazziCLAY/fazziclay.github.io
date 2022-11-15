@@ -1,6 +1,6 @@
 {
  "isActive": true,
- "previewMode": true,
+ "previewMode": false,
  "updateApkDirectUrl":"https://github.com/FazziCLAY/OpenToday/releases/download/v99/opentoday-release-build99-new.apk",
  "allowedBuilds": [
    73,
