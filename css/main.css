@@ -2,6 +2,12 @@ body {
 	background-color: #000000;	
 }
 
+@media (max-width: 800px) {
+ .project_desk {
+   font-size: 71%;
+  }
+}
+
 .helloworld {
 	color: #ffffff;
 	font-size: 300%;
@@ -69,6 +75,10 @@ body {
 .projects_line {            
 	color: #d4d4ff;
 	font-size: 200%;
+}
+
+.project_desk {
+
 }
 
 .projects_link {
