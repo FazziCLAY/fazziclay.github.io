@@ -178,5 +178,23 @@
         "description": "OpenToday import public",
         "href": "https://fazziclay.github.io/download/raw/opentoday_import_school_2022.11.14.txt",
         "name": "opentoday_import_school_2022.11.14.txt"
+    },
+    {
+        "date": "2023-02-27",
+        "description": "Browser homepage (styles)",
+        "href": "https://fazziclay.github.io/download/raw/fazziclay-homepage.css",
+        "name": "fazziclay-homepage.css"
+    },
+    {
+        "date": "2023-02-27",
+        "description": "Browser homepage",
+        "href": "https://fazziclay.github.io/download/raw/fazziclay-homepage.html",
+        "name": "fazziclay-homepage.html"
+    },
+    {
+        "date": "2023-??-??",
+        "description": "Стихотворение Толстова",
+        "href": "https://fazziclay.github.io/download/raw/tolstoy-sredballa.xt",
+        "name": "tolstoy-sredballa.xt"
     }
 ]
