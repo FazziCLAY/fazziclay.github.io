@@ -3,7 +3,9 @@ var objText = null;
 function updatePlayer() {
   fetch("https://fazziclay.com/api/v1/person/status/cuteTextPlayer")
         .then(response => {
-            objText.innerHTML = response.text();
+            response.text().then(txt => {
+              objText.innerHTML = txt
+            })
         })
 }
 
